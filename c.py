@@ -16,7 +16,7 @@ class Application(Frame):
 
     def hello(self):
         name = self.nameInput.get() or 'world'
-        tkMessageBox.showinfo('Message', 'Hello, %s' % name)
+        tkMessageBox.showinfo('Message', 'Hellod, %s' % name)
 
 app = Application()
 app.master.title('Hello World')
