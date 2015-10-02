@@ -20,5 +20,5 @@ class Application(Frame):
 
 app = Application()
 app.master.title('Hello World')
-# 主消息vc
+# 主消息
 app.mainloop()
